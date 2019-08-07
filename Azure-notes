@@ -1,0 +1,48 @@
+Azure Notes:
+#####################
+
+1. Enterprise Agreement - top level contract between user/company and Microsoft. https://ea.azure.com 
+2. AZ103 - Azure adinistrator exam 
+
+3. Resource Groups - 
+-> Essentially a container where you can put your resources in. 
+-> Resources can be "web apps", VMs, databases etc. 
+-> If an RG is destroyed then all resouces inside it are destroyed.
+-> Generally the first item to be created after setting up account and subscription.
+
+4. VNET - networking in Azure. 
+-> Similar in concept to VPC.
+-> Subnets are inside a VNET. 
+
+5. Access Azure:
+	portal.azure.com
+	
+6. Azure account hierarchy: 
+	Azure Enterprise
+		|
+	Departments
+		|
+	Accounts
+		|
+	Subscriptions
+		|
+	Resource Groups
+		|
+	Resource 
+
+7. Admin hierarchy: 
+	Eneterprise Admin
+		|
+	Department Admin
+		|
+	Account Owner 
+		|
+	Service Admin 
+	
+8. Billing alerts :
+	Go to "Subscriptions"-From subscription page go to your subscription ex."Free Trial"-Click on "Manage"-Goes to "account.azure.com"
+	
+	
+	
+	
+	
